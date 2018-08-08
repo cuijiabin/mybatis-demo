@@ -32,3 +32,5 @@ rebel.xml
 *.log
 /*.log
 *.lck
+.idea
+*.iml
