@@ -1,22 +1,17 @@
 package com.cuijiabin.test;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
+import com.cuijiabin.model.Student;
+import com.cuijiabin.service.StudentService;
+import org.apache.log4j.Logger;
+import org.junit.*;
 
 import java.util.Date;
 import java.util.List;
 
-import org.apache.log4j.Logger;
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
-import com.cuijiabin.model.Student;
-import com.cuijiabin.service.StudentService;
-
-
+@Ignore
 public class TestService {
 
 	private static StudentService studentService;

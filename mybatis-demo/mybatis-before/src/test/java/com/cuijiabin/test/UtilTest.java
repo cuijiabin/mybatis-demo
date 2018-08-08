@@ -1,21 +1,22 @@
 package com.cuijiabin.test;
 
+import com.cuijiabin.util.MyBatisSqlSessionFactory;
+import org.apache.ibatis.io.Resources;
+import org.apache.ibatis.jdbc.ScriptRunner;
+import org.junit.Ignore;
+import org.junit.Test;
+
 import java.io.Reader;
 import java.sql.Connection;
 
-import org.apache.ibatis.io.Resources;
-import org.apache.ibatis.jdbc.ScriptRunner;
-import org.junit.Test;
 
-import com.cuijiabin.util.MyBatisSqlSessionFactory;
-
-
+@Ignore
 public class UtilTest {
 
 	@Test
 	public void initDatabase() {
 //		executeSql("sql/drop_tables.sql");
-//		executeSql("sql/create_tables.sql");
+		executeSql("sql/create_tables.sql");
 		executeSql("sql/sample_data.sql");
 	}
 	
