@@ -8,7 +8,8 @@
 	<modules>
 		<module>eureka-server</module>
 		<module>mybatis-before</module>
-	</modules>
+        <module>eureka-client</module>
+    </modules>
 	<packaging>pom</packaging>
 
 	<name>mybatis-demo</name>
