@@ -10,7 +10,8 @@
 		<module>mybatis-before</module>
         <module>eureka-client</module>
         <module>consul-client</module>
-    </modules>
+		<module>eureka-consumer</module>
+	</modules>
 	<packaging>pom</packaging>
 
 	<name>mybatis-demo</name>
