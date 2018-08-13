@@ -17,7 +17,8 @@
         <module>config-client</module>
 		<module>eureka-consumer-ribbon-hystrix</module>
 		<module>hystrix-dashboard</module>
-	</modules>
+        <module>turbine</module>
+    </modules>
 	<packaging>pom</packaging>
 
 	<name>mybatis-demo</name>
