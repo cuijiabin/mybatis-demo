@@ -20,6 +20,9 @@
         <module>turbine</module>
 		<module>api-gateway</module>
         <module>api-gateway-with-eureka</module>
+        <module>swagger-service-a</module>
+        <module>swagger-service-b</module>
+        <module>swagger-api-gateway</module>
     </modules>
 	<packaging>pom</packaging>
 
