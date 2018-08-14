@@ -6,6 +6,9 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.turbine.EnableTurbine;
 import org.springframework.context.annotation.Configuration;
 
+/**
+ * @author cuijiabin
+ */
 @Configuration
 @EnableAutoConfiguration
 @EnableTurbine
