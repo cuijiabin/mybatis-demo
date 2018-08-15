@@ -24,7 +24,9 @@
         <module>swagger-service-b</module>
         <module>swagger-api-gateway</module>
         <module>stream-hello</module>
-    </modules>
+		<module>trace-1</module>
+		<module>trace-2</module>
+	</modules>
 	<packaging>pom</packaging>
 
 	<name>mybatis-demo</name>
